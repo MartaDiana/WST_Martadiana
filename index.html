@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marta Diana</title>
+    <!-- css style -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- css for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-link">
+        <a href="#">
+          <span class="fa fa-globe" style="font-size: 40px"></span>
+          <p>Browser</p>
+        </a>
+      </div>
+      <div class="nav-link">
+        <a href="#">
+          <span class="fa fa-map-pin" style="font-size: 40px"></span>
+          <p>Suggest Attraction</p>
+        </a>
+      </div>
+      <div class="nav-link">
+        <a href="#">
+          <span class="fa fa-play-circle-o" style="font-size: 40px"></span>
+          <p>Vidios</p>
+        </a>
+      </div>
+      <div class="nav-link">
+        <a href="#">
+          <span class="fa fa-pencil-square-o" style="font-size: 40px"></span>
+          <p>Blog</p>
+        </a>
+      </div>
+      <div class="nav-link">
+        <a href="#">
+          <span class="material-icons" style="font-size: 40px">info</span>
+          <p class="about">About</p>
+        </a>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- drop link -->
+    <nav class="drop-link">
+      <label for="btn-1" class="main-button"
+        >Filter by Favorite
+        <span class="fa fa-caret-down"></span>
+      </label>
+      <input type="checkbox" id="btn-1" />
+      <ul class="dropdown">
+        <li><a href="#">Merlion</a></li>
+        <li>
+          <label for="btn-2" class="marina"
+            >Marina Bay Sanda
+            <span class="fa fa-caret-down"></span>
+          </label>
+          <input type="checkbox" id="btn-2" />
+          <ul class="dropdown-sub">
+            <li><a href="#">ArtScience Museum</a></li>
+            <li><a href="#">Marina Bay Sands Skypack</a></li>
+            <li><a href="#">Double Helix Bridge</a></li>
+          </ul>
+        </li>
+        <li>
+          <label for="btn-3" class="garden"
+            >Garden by the Bay
+            <span class="fa fa-caret-down"></span>
+          </label>
+          <input type="checkbox" id="btn-3" />
+          <ul class="dropdown-sub">
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+          </ul>
+        </li>
+        <li>
+          <label for="btn-4" class="china">China Town <span class="fa fa-caret-down"></span> </label>
+          <input type="checkbox" id="btn-4" />
+          <ul>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Asian Civilisations Museum</a></li>
+        <li><a href="#">Clarke Quay</a></li>
+        <li><a href="#">Fort Canning Park</a></li>
+        <li><a href="#">Singapore Flyer</a></li>
+        <li><a href="#">Orchard Road</a></li>
+      </ul>
+    </nav>
+    <!-- end of drop link -->
+
+    <!-- main section -->
+    <div class="main-sec">
+      <div class="title">
+        <span>Top-Rated Tourist Attraction In Singapore</span>
+        <span class="icon-main">
+          <span class="fa fa-gear" style="font-size: 24px"></span>
+          <span class="fa fa-times-circle" style="font-size: 24px"></span>
+          <span class="fa fa-question-circle" style="font-size: 24px"></span>
+        </span>
+      </div>
+      <div id="mapid">
+        <div class="kotak"></div>
+      </div>
+    </div>
+
+    <!-- end of main section -->
+
+    <!-- script.js -->
+    <script type="text/javascript" src="data.json"></script>
+    <script src="js/script.js"></script>
+
+    <!-- leaflet script -->
+  </body>
+</html>

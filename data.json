@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Merlion",
+    "latitude": 1.28692,
+    "longitude": 103.85457,
+    "des": "The Merlion is the official mascot of Singapore. It is depicted as a mythical creature with the head of a lion and the body of a fish."
+  },
+
+  {
+    "id": 2,
+    "name": "Asian Civilisations Museum",
+    "latitude": 1.287466,
+    "longitude": 103.851424,
+    "des": "The Asian Civilisations Museum (ACM) is an institution which forms a part of the four museums in Singapore."
+  },
+
+  {
+    "id": 3,
+    "name": "Clarke Quay",
+    "latitude": 1.290555,
+    "longitude": 103.846188,
+    "des": "Clarke Quay is a historical riverside in Singapore situated around the Singapore River Planning Area."
+  },
+
+  {
+    "id": 4,
+    "name": "Fort Canning Park",
+    "latitude": 1.295526,
+    "longitude": 103.845331,
+    "des": "Fort Canning Park, an iconic hilltop landmark has witnessed many of Singapore's historical milestones."
+  },
+
+  {
+    "id": 5,
+    "name": "Orchard Road",
+    "latitude": 1.302279,
+    "longitude": 103.837399,
+    "des": "Orchard Road is a whole street that's almost entirely dedicated to shopping."
+  },
+
+  {
+    "id": 6,
+    "name": "Singapore Flyer",
+    "latitude": 1.289332,
+    "longitude": 103.863152,
+    "des": "The Singapore Flyer is an observation wheel at the Downtown Core district of Singapore."
+  },
+
+  {
+    "id": 7,
+    "name": "Marina Bay Sands",
+    "latitude": 1.283099,
+    "longitude": 103.860295,
+    "des": "Marina Bay Sands is an integrated resort with a  retail mall, as well as convention facilities and entertainment venues."
+  },
+
+  {
+    "id": 8,
+    "name": "Gardens By The Bay",
+    "latitude": 1.28179,
+    "longitude": 103.863954,
+    "des": "Gardens by the Bay is home to a diverse collection of over 1.5 million plants."
+  },
+
+  {
+    "id": 9,
+    "name": "Chinatown",
+    "latitude": 1.284193,
+    "longitude": 103.843362,
+    "des": "Chinatown is a subzone and ethnic enclave located within the Outram district in the Central Area of Singapore."
+  }
+]
